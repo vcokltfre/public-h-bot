@@ -90,7 +90,7 @@ class General(commands.Cog):
 
     @commands.Cog.listener()
     async def on_ready(self):
-        await self.bot.change_presence(activity=discord.Game(name="h!help | h"))
+        await self.bot.change_presence(activity=discord.Game(name="https://letterh.xyz"))
         self.bot.logger.info(f"{name} has started")
 
 
